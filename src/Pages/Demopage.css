@@ -1,0 +1,45 @@
+/* Parallax effect */
+.parallax-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/path-to-your-image.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: -1;
+}
+
+/* Animation for Stats */
+.stats-container {
+  animation: fadeIn 1s ease-out;
+}
+
+.stats-box {
+  background-color: #1d1d1d;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease;
+}
+
+.stats-box:hover {
+  transform: scale(1.05);
+}
+
+/* Form Animation */
+.form-container {
+  animation: fadeIn 1s ease-out;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
