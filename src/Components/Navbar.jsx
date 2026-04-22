@@ -164,12 +164,7 @@ const navigate = useNavigate();
           </div>
 
           {/* BUTTON */}
-          <button
-            className="w-full rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-500 px-6 py-3 text-sm font-semibold text-white shadow-lg active:scale-95 transition"
-            onClick={() => (window.location.href = "/demo")}
-          >
-            Get a Demo
-          </button><button
+         <button
   className="hidden lg:block rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-500 px-6 py-2.5 text-sm font-semibold text-white shadow-lg hover:scale-[1.03] transition"
   onClick={() => navigate("/demo")}
 >
