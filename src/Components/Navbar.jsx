@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
+const navigate = useNavigate();
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 0);
@@ -168,7 +169,12 @@ export default function Navbar() {
             onClick={() => (window.location.href = "/demo")}
           >
             Get a Demo
-          </button>
+          </button><button
+  className="hidden lg:block rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-500 px-6 py-2.5 text-sm font-semibold text-white shadow-lg hover:scale-[1.03] transition"
+  onClick={() => navigate("/demo")}
+>
+  Get a Demo
+</button>
 
         </div>
       </div>
