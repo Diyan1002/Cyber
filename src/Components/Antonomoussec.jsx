@@ -1,4 +1,4 @@
-import hoodDiagram from "../assets/visua.svg";  
+import hoodDiagram from "../assets/Visua.svg";  
 import DotDiagram from "../assets/Dot.png";  
 import newImage from "../assets/boxy.png";  // Import the new image
 

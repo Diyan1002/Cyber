@@ -2,7 +2,7 @@ import microsoft from "../assets/microsoft.png";
 import londonStockExchange from "../assets/london.png";
 import scotiabank from "../assets/cu.png";
 import spGlobal from "../assets/global.png";
-import cummins from "../assets/lateral.svg";
+import cummins from "../assets/Lateral.svg";
 
 const logos = [
   { name: "Microsoft", src: microsoft },
