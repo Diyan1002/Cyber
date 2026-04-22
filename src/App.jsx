@@ -20,6 +20,8 @@ import Careers from "./Pages/Careers";
 import Contact from "./Pages/Contact";
 import Register from "./Pages/Register";
 
+import Chatbot from "./Components/Chatbot";
+
 /* 👇 Layout Wrapper (IMPORTANT) */
 function Layout() {
   const location = useLocation();
@@ -37,6 +39,7 @@ function Layout() {
           path="/"
           element={
             <div>
+               <Chatbot />
               <Banner />
               <Hero />
               <Trustedlogo />
