@@ -13,24 +13,24 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
 
           {/* LOGOS */}
-          <div className="flex flex-row lg:flex-col items-center lg:items-start justify-center lg:justify-start gap-6 sm:gap-8">
+          <div className="flex flex-row lg:flex-col items-center lg:items-start justify-center lg:justify-start gap-4 sm:gap-6 lg:gap-8">
 
             <img
               src={footerImage1}
               alt="MISA Logo"
-              className="h-16 sm:h-20 lg:h-24 object-contain rounded-lg shadow-md"
+              className="h-12 sm:h-16 lg:h-24 object-contain rounded-lg shadow-md"
             />
 
             <img
               src={footerImage2}
               alt="Mitre Logo"
-              className="h-16 sm:h-20 lg:h-24 object-contain rounded-lg shadow-md"
+              className="h-12 sm:h-16 lg:h-24 object-contain rounded-lg shadow-md"
             />
 
             <img
               src={footerImage3}
               alt="SOC Logo"
-              className="h-16 sm:h-20 lg:h-24 object-contain rounded-lg shadow-md"
+              className="h-12 sm:h-16 lg:h-24 object-contain rounded-lg shadow-md"
             />
 
           </div>
@@ -45,7 +45,7 @@ export default function Footer() {
                 <h3 className="text-base sm:text-lg font-semibold text-purple-500">
                   PRODUCT
                 </h3>
-                <ul className="mt-4 space-y-2 text-sm text-white/80">
+                <ul className="mt-4 space-y-2 text-xs sm:text-sm text-white/80">
                   {[
                     "Platform Overview",
                     "Attack Path Discovery",
@@ -69,7 +69,7 @@ export default function Footer() {
                 <h3 className="text-base sm:text-lg font-semibold text-purple-500">
                   INTEGRATIONS
                 </h3>
-                <ul className="mt-4 space-y-2 text-sm text-white/80">
+                <ul className="mt-4 space-y-2 text-xs sm:text-sm text-white/80">
                   {[
                     "Microsoft",
                     "CrowdStrike",
@@ -93,7 +93,7 @@ export default function Footer() {
                 <h3 className="text-base sm:text-lg font-semibold text-purple-500">
                   RESOURCES
                 </h3>
-                <ul className="mt-4 space-y-2 text-sm text-white/80">
+                <ul className="mt-4 space-y-2 text-xs sm:text-sm text-white/80">
                   {[
                     "Blog",
                     "Whitepapers",
@@ -115,7 +115,7 @@ export default function Footer() {
                 <h3 className="text-base sm:text-lg font-semibold text-purple-500">
                   COMPANY
                 </h3>
-                <ul className="mt-4 space-y-2 text-sm text-white/80">
+                <ul className="mt-4 space-y-2 text-xs sm:text-sm text-white/80">
                   {[
                     "About Us",
                     "Tech Docs",
@@ -147,22 +147,26 @@ export default function Footer() {
               className="text-white hover:text-purple-400 transition"
               aria-label="LinkedIn"
             >
-              <FaLinkedin size={24} />
+              <FaLinkedin size={22} />
             </a>
           </div>
 
           {/* LEGAL */}
-          <div className="mt-4 text-xs sm:text-sm text-white/60 space-y-1">
+          <div className="mt-4 text-[11px] sm:text-sm text-white/60 space-y-2">
             <p>© Copyright 2026 D3 Security</p>
-            <p className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3">
+
+            <p className="flex flex-col sm:flex-row justify-center items-center gap-1 sm:gap-3">
               <a href="#" className="hover:text-purple-400">
                 Privacy Policy
               </a>
+
               <span className="hidden sm:inline">|</span>
+
               <a href="#" className="hover:text-purple-400">
                 Terms of Service
               </a>
             </p>
+
           </div>
 
         </div>
