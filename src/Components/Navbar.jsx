@@ -165,7 +165,7 @@ const navigate = useNavigate();
 
           {/* BUTTON */}
          <button
-  className="hidden lg:block rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-500 px-6 py-2.5 text-sm font-semibold text-white shadow-lg hover:scale-[1.03] transition"
+  className=" lg:block rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-500 px-6 py-2.5 text-sm font-semibold text-white shadow-lg hover:scale-[1.03] transition"
   onClick={() => navigate("/demo")}
 >
   Get a Demo
