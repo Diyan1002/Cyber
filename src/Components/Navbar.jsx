@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo3.png";
 import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
@@ -29,7 +29,7 @@ const navigate = useNavigate();
           <img
             src={logo}
             alt="Logo"
-            className="h-16 w-auto object-contain lg:h-20"
+            className="h-12 w-auto object-contain lg:h-14"
           />
         </Link>
 

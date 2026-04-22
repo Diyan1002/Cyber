@@ -90,14 +90,12 @@ const ContactForm = () => {
             📞 Let's Talk
           </h2>
 
+          
           <p className="text-gray-300 mb-2">
-            Sales: <span className="text-white font-medium">800-608-0081</span>
-          </p>
-          <p className="text-gray-300 mb-2">
-            Admin: <span className="text-white font-medium">800-608-0081</span>
+            Admin: <span className="text-white font-medium">+13652995732</span>
           </p>
           <p className="text-gray-300">
-            Support: <span className="text-white font-medium">800-608-0081</span>
+            Support: <span className="text-white font-medium">866-571-8970</span>
           </p>
 
           {/* Glow line */}
@@ -112,8 +110,8 @@ const ContactForm = () => {
           </h2>
 
           <p className="text-gray-300 leading-relaxed">
-            300 - 1075 W Georgia St <br />
-            Vancouver, BC V6E 3C9 <br />
+            56a Mill Street E, Unit # 236, <br />
+            Acton, Ontario, Canada, L7J 1H3 <br />
             Canada
           </p>
 
