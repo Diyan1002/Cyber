@@ -1,23 +1,30 @@
+import { useEffect } from 'react';
 import socImage from "../assets/Diagram.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function SOCSection() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, easing: 'ease-in-out' });
+  }, []);
+
   return (
     <section className="w-full bg-black py-24 text-white overflow-x-hidden">
       <div className="mx-auto max-w-[1100px] px-4 sm:px-6 text-center">
 
         {/* TITLE */}
-        <p className="animate-fade-up mb-4 text-[10px] sm:text-sm font-semibold uppercase tracking-[0.3em] text-fuchsia-400">
+        <p className="animate-fade-up mb-4 text-[10px] sm:text-sm font-semibold uppercase tracking-[0.3em] text-fuchsia-400" data-aos="fade-up">
           AUTONOMOUS AI SOC OPERATIONS
         </p>
 
-        <h2 className="animate-fade-up-delayed mx-auto max-w-[900px] text-xl sm:text-5xl lg:text-[40px] font-bold leading-tight">
+        <h2 className="animate-fade-up-delayed mx-auto max-w-[900px] text-xl sm:text-5xl lg:text-[40px] font-bold leading-tight" data-aos="fade-up" data-aos-delay="200">
           Morpheus Automates L1 and L2 So Your
           <br />
           Team Focuses on L3
         </h2>
 
         {/* IMAGE */}
-        <div className="mt-10 sm:mt-16 flex justify-center">
+        <div className="mt-10 sm:mt-16 flex justify-center" data-aos="fade-up" data-aos-delay="400">
           <img
             src={socImage}
             alt="SOC workflow diagram"
@@ -28,7 +35,7 @@ export default function SOCSection() {
         {/* TEXT SECTION (ONLY MOBILE FIX) */}
         <div className="mt-10 sm:mt-16 grid grid-cols-1 md:grid-cols-2 text-left font-bold text-white/80 gap-6">
 
-          <p className="animate-fade-up-delayed-2 leading-6 sm:leading-7 text-sm sm:text-base">
+          <p className="animate-fade-up-delayed-2 leading-6 sm:leading-7 text-sm sm:text-base" data-aos="fade-up" data-aos-delay="600">
             Morpheus ingests alerts across your security stack and{" "}
             <span className="text-white">
               autonomously handles L1 & L2 workload
@@ -36,7 +43,7 @@ export default function SOCSection() {
             — from deduplication to attack path investigation. Analysts focus on L3.
           </p>
 
-          <p className="animate-fade-up-delayed-3 leading-6 sm:leading-7 text-sm sm:text-base">
+          <p className="animate-fade-up-delayed-3 leading-6 sm:leading-7 text-sm sm:text-base" data-aos="fade-up" data-aos-delay="800">
             Unlike legacy SOAR platforms, Morpheus generates runtime logic dynamically,
             mapping attacks and adapting without static rules.{" "}
             <span className="text-white">
@@ -124,8 +131,8 @@ export default function SOCSection() {
             PLATFORM AT A GLANCE
           </p>
 
-          <h2 className="text-2xl sm:text-4xl lg:text-[48px] font-bold leading-tight">
-            What the D3 Morpheus Platform Ships
+          <h2 className="text-2xl sm:text-4xl lg:text-[36px] font-bold leading-tight">
+            What the CYBER-HAT533 INC. Platform Ships
             <br />
             on Day One
           </h2>
@@ -150,7 +157,7 @@ export default function SOCSection() {
               </div>
             </div>
 
-            {[
+            {[ 
               ["Alert Investigation", "Autonomous L2 analysis", "100% coverage"],
               ["AI Triage", "LLM classification", "95% under 2 min"],
               ["Response Orchestration", "Runtime playbooks", "Dynamic"],

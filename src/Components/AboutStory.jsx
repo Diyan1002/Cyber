@@ -6,7 +6,7 @@ export default function InnovationStory() {
     "Scaling Up.",
     "Event Pipeline™",
     "Smart SOAR™",
-    "D3 Morpheus AI",
+    "CYBER-HAT Morpheus AI",
   ];
 
   return (
@@ -53,7 +53,7 @@ export default function InnovationStory() {
           {/* RIGHT CONTENT */}
           <div className="text-lg">
             <p className="text-gray-700 leading-relaxed mb-3">
-              In 2015, founder Gordon Benoit built the first incident response automation solution — because security teams needed it. Dynamic incident forms, alert grouping, and link analysis helped analysts respond faster. At RSA 2016, D3 demoed integrations with ArcSight, QRadar, and Splunk. Gartner would soon coin the term “SOAR” to describe D3 and the category it helped create.
+              In 2015, founder Gordon Benoit built the first incident response automation solution — because security teams needed it. Dynamic incident forms, alert grouping, and link analysis helped analysts respond faster. At RSA 2016, CYBER-HAT demoed integrations with ArcSight, QRadar, and Splunk. Gartner would soon coin the term “SOAR” to describe CYBER-HAT and the category it helped create.
             </p>
 
             <ul className="list-disc pl-4 space-y-1 text-gray-800">

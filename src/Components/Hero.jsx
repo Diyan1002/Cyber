@@ -1,7 +1,14 @@
+import { useEffect } from 'react';
 import heroVisual from "../assets/funnel.svg";
 import gridBg from "../assets/grid.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function HeroSection() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, easing: 'ease-in-out' });
+  }, []);
+
   return (
     <section className="min-h-screen w-full bg-black text-white overflow-hidden">
       <div className="relative">
@@ -24,10 +31,13 @@ export default function HeroSection() {
         <div className="mx-auto grid min-h-screen max-w-[1400px] items-center gap-12 px-6 py-16 lg:grid-cols-2 lg:px-12">
 
           {/* LEFT CONTENT */}
-          <div className="relative z-10 max-w-2xl">
-
+          <div
+            className="relative z-10 max-w-2xl"
+            data-aos="fade-right"
+            data-aos-offset="200"
+          >
             <p className="mb-4 text-xs sm:text-sm font-semibold uppercase tracking-[0.28em] text-fuchsia-400">
-              D3 Morpheus — Autonomous AI SOC Platform
+              CYBER-HAT533 INC. — Autonomous AI SOC Platform
             </p>
 
             {/* RESPONSIVE HEADING */}
@@ -47,7 +57,7 @@ export default function HeroSection() {
 
             {/* DESCRIPTION */}
             <p className="mt-6 sm:mt-8 text-sm sm:text-base lg:text-lg leading-7 sm:leading-8 text-white/80">
-              D3 Morpheus is an autonomous AI SOC platform that investigates and
+              CYBER-HAT533 INC. is an autonomous AI SOC platform that investigates and
               triages 100% of security alerts in under three minutes — not a sample,
               every one. Powered by a purpose-built cybersecurity triage LLM and
               attack path discovery engine, it delivers deep investigations across
@@ -57,7 +67,6 @@ export default function HeroSection() {
 
             {/* FORM */}
             <div className="mt-8 sm:mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
-
               {/* EMAIL */}
               <input
                 type="email"
@@ -80,15 +89,14 @@ export default function HeroSection() {
               </select>
 
               {/* BUTTON */}
-              <button className="h-[56px] sm:h-[64px] w-full sm:w-auto rounded-full bg-gradient-to-r from-violet-600 via-fuchsia-500 to-purple-600 px-10 sm:px-14 text-sm sm:text-base font-semibold text-white shadow-[0_0_30px_rgba(168,85,247,0.35)] transition hover:scale-[1.03]">
+              <button className="h-[56px] sm:h-[64px] w-full sm:w-auto rounded-full bg-gradient-to-r from-violet-600 via-fuchsia-500 to-purple-600 px-10 sm:px-14 text-sm sm:text-base font-semibold text-white shadow-[0_0_30px_rgba(168,85,247,0.35)] transition hover:scale-[1.03]" data-aos="zoom-in">
                 Get a Demo
               </button>
             </div>
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className="relative z-10 flex items-center justify-center mt-10 lg:mt-0">
-
+          <div className="relative z-10 flex items-center justify-center mt-10 lg:mt-0" data-aos="fade-left" data-aos-offset="200">
             <div className="w-full max-w-[420px] sm:max-w-[500px]">
               <img
                 src={heroVisual}
@@ -96,7 +104,6 @@ export default function HeroSection() {
                 className="w-full object-contain"
               />
             </div>
-
           </div>
 
         </div>

@@ -34,10 +34,10 @@ export default function AboutPage() {
 
         {/* Description */}
         <p className="text-gray-300 text-lg leading-relaxed mb-10 max-w-3xl">
-          D3 followed its customers, not a roadmap. The most demanding security
+          CYBER-HAT followed its customers, not a roadmap. The most demanding security
           teams in the world kept asking for technology that could handle more,
           investigate deeper, and break less often. We kept building it. That’s
-          how D3 earned its way to the top of the cybersecurity industry — and
+          how CYBER-HAT earned its way to the top of the cybersecurity industry — and
           how Morpheus was born.
         </p>
 

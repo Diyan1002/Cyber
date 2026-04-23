@@ -79,7 +79,7 @@ const DemoPage = () => {
           <div className="bg-[#0c0c0c] border border-purple-500/40 rounded-2xl p-5 sm:p-7 shadow-[0_0_30px_rgba(168,85,247,0.2)]">
 
             <h3 className="text-xl sm:text-2xl font-bold text-center mb-5 sm:mb-6">
-              See D3 Morpheus <br /> in Action
+              See CYBER-HAT533 INC. Morpheus <br /> in Action
             </h3>
 
             <form onSubmit={handleSubmit} className="space-y-4">

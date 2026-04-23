@@ -25,14 +25,14 @@ export default function FAQSection() {
         "Self-healing integrations automatically detect and correct issues within your security infrastructure, reducing the need for manual intervention and improving system uptime.",
     },
     {
-      question: "Can D3 Morpheus replace our SOAR?",
+      question: "Can CYBER-HAT533 INC. replace our SOAR?",
       answer:
-        "Yes, D3 Morpheus can replace traditional SOAR solutions, offering advanced AI-driven incident response, automated remediation, and self-healing capabilities.",
+        "Yes, CYBER-HAT533 INC. can replace traditional SOAR solutions, offering advanced AI-driven incident response, automated remediation, and self-healing capabilities.",
     },
     {
-      question: "Is D3 Morpheus suitable for MSSPs?",
+      question: "Is CYBER-HAT533 INC. suitable for MSSPs?",
       answer:
-        "D3 Morpheus is highly suitable for Managed Security Service Providers (MSSPs), offering multi-tenant capabilities and scalable security automation for diverse client environments.",
+        "CYBER-HAT533 INC. is highly suitable for Managed Security Service Providers (MSSPs), offering multi-tenant capabilities and scalable security automation for diverse client environments.",
     },
   ];
 

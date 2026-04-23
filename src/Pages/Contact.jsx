@@ -53,8 +53,9 @@ const ContactForm = () => {
             <label className="text-sm text-gray-400">Company Country*</label>
             <select className="inputStyle">
               <option className="bg-black">Select Country</option>
-              <option className="bg-black">Pakistan</option>
+              
               <option className="bg-black">USA</option>
+              <option className="bg-black">Canada</option>
             </select>
           </div>
 
