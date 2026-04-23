@@ -153,7 +153,7 @@ export default function Footer() {
 
           {/* LEGAL */}
           <div className="mt-4 text-[11px] sm:text-sm text-white/60 space-y-2">
-            <p>© Copyright 2026 D3 Security</p>
+            <p>© Copyright 2026 CYBER-HAT533 INC. Security</p>
 
             <p className="flex flex-col sm:flex-row justify-center items-center gap-1 sm:gap-3">
               <a href="#" className="hover:text-purple-400">
